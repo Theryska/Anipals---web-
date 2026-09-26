@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jak to funguje — AniPals</title>
+<meta name="description" content="Tři kroky k tomu, aby byl váš mazlíček v dobrých rukou.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <svg class="logo-paw" viewBox="0 0 64 64" width="34" height="34" aria-hidden="true">
+        <ellipse cx="32" cy="40" rx="16" ry="13" fill="currentColor"/>
+        <ellipse cx="14" cy="24" rx="7" ry="8" fill="currentColor"/>
+        <ellipse cx="32" cy="16" rx="7" ry="8.5" fill="currentColor"/>
+        <ellipse cx="50" cy="24" rx="7" ry="8" fill="currentColor"/>
+      </svg>
+      <span>Ani<span class="accent">Pals</span></span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Domů</a>
+      <a href="sluzby.html">Služby</a>
+      <a href="jak-to-funguje.html" class="active">Jak to funguje</a>
+      <a href="cenik.html">Ceník/Storno podmínky</a>
+      <a href="caste-dotazy.html">Časté dotazy</a>
+      <a href="index.html#kontakt" class="nav-cta">Nechte si vědět</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Otevřít menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Jak to funguje</span>
+      <h1>Od výběru hlídače po klidnou hlavu ve třech krocích</h1>
+      <p class="lede">Ať už hledáte jednorázovou návštěvu nebo péči na celý týden, postup je vždy stejně jednoduchý.</p>
+    </div>
+  </section>
+
+  <section class="section how-it-works">
+    <div class="container">
+      <div class="steps">
+        <div class="step">
+          <span class="step-number">1</span>
+          <h3>Vyberte si hlídače</h3>
+          <p>Podle lokality a typu služby, kterou váš mazlíček potřebuje — od krátké návštěvy po nepřetržitou péči.</p>
+        </div>
+        <div class="step">
+          <span class="step-number">2</span>
+          <h3>Domluvte se</h3>
+          <p>Upřesněte termín, službu a vše důležité o vašem mazlíčkovi — zvyky, stravu, léky nebo oblíbené hry.</p>
+        </div>
+        <div class="step">
+          <span class="step-number">3</span>
+          <h3>Klid v duši</h3>
+          <p>Váš mazlíček je v rukou někoho, komu na něm opravdu záleží — a vy máte průběžný přehled.</p>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top: 48px;">
+        <a href="sluzby.html" class="btn btn-ghost">Prohlédnout služby</a>
+        <a href="index.html#kontakt" class="btn btn-primary">Najít hlídače</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="logo footer-logo">
+      <svg class="logo-paw" viewBox="0 0 64 64" width="26" height="26" aria-hidden="true">
+        <ellipse cx="32" cy="40" rx="16" ry="13" fill="currentColor"/>
+        <ellipse cx="14" cy="24" rx="7" ry="8" fill="currentColor"/>
+        <ellipse cx="32" cy="16" rx="7" ry="8.5" fill="currentColor"/>
+        <ellipse cx="50" cy="24" rx="7" ry="8" fill="currentColor"/>
+      </svg>
+      <span>Ani<span class="accent">Pals</span></span>
+    </div>
+    <p>&copy; <span id="year"></span> AniPals. Všechna práva vyhrazena.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

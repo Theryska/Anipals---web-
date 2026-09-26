@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Časté dotazy — AniPals</title>
+<meta name="description" content="Odpovědi na nejčastější otázky o službách AniPals.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <svg class="logo-paw" viewBox="0 0 64 64" width="34" height="34" aria-hidden="true">
+        <ellipse cx="32" cy="40" rx="16" ry="13" fill="currentColor"/>
+        <ellipse cx="14" cy="24" rx="7" ry="8" fill="currentColor"/>
+        <ellipse cx="32" cy="16" rx="7" ry="8.5" fill="currentColor"/>
+        <ellipse cx="50" cy="24" rx="7" ry="8" fill="currentColor"/>
+      </svg>
+      <span>Ani<span class="accent">Pals</span></span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Domů</a>
+      <a href="sluzby.html">Služby</a>
+      <a href="jak-to-funguje.html">Jak to funguje</a>
+      <a href="cenik.html">Ceník/Storno podmínky</a>
+      <a href="caste-dotazy.html" class="active">Časté dotazy</a>
+      <a href="index.html#kontakt" class="nav-cta">Nechte si vědět</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Otevřít menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Časté dotazy</span>
+      <h1>Odpovědi na otázky, které nás lidé ptají nejčastěji</h1>
+      <p class="lede">Nenašli jste odpověď na svůj dotaz? Napište nám.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Jaké služby AniPals nabízí?</summary>
+          <p>Pět typů péče — nepřetržitou i denní péči u vás doma nebo u hlídače a jednorázové návštěvy (30–60 minut). Podrobnosti najdete na stránce <a href="sluzby.html" style="color:var(--purple); text-decoration:underline;">Služby</a>.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Kde AniPals působí?</summary>
+          <p>Po celé České republice, nejen ve velkých městech.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Jak jsou hlídači ověřováni?</summary>
+          <p>Každý hlídač na AniPals prochází naším ověřovacím procesem, než se může k platformě připojit a nabízet své služby.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Jak si vyberu vhodného hlídače?</summary>
+          <p>Podle lokality a typu služby, kterou váš mazlíček potřebuje. Postup krok za krokem najdete na stránce <a href="jak-to-funguje.html" style="color:var(--purple); text-decoration:underline;">Jak to funguje</a>.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Kolik služby stojí?</summary>
+          <p>Aktuální ceník najdete na stránce <a href="cenik.html" style="color:var(--purple); text-decoration:underline;">Ceník/Storno podmínky</a>.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Jak mohu zrušit rezervaci?</summary>
+          <p>Podmínky zrušení a vrácení platby najdete na stránce <a href="cenik.html" style="color:var(--purple); text-decoration:underline;">Ceník/Storno podmínky</a>.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Chci se stát hlídačem — jak se přihlásím?</summary>
+          <p>Napište nám přes kontaktní formulář na hlavní stránce a ozveme se vám s dalším postupem.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="logo footer-logo">
+      <svg class="logo-paw" viewBox="0 0 64 64" width="26" height="26" aria-hidden="true">
+        <ellipse cx="32" cy="40" rx="16" ry="13" fill="currentColor"/>
+        <ellipse cx="14" cy="24" rx="7" ry="8" fill="currentColor"/>
+        <ellipse cx="32" cy="16" rx="7" ry="8.5" fill="currentColor"/>
+        <ellipse cx="50" cy="24" rx="7" ry="8" fill="currentColor"/>
+      </svg>
+      <span>Ani<span class="accent">Pals</span></span>
+    </div>
+    <p>&copy; <span id="year"></span> AniPals. Všechna práva vyhrazena.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

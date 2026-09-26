@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ceník / Storno podmínky — AniPals</title>
+<meta name="description" content="Přehled cen jednotlivých služeb a podmínek zrušení rezervace.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <svg class="logo-paw" viewBox="0 0 64 64" width="34" height="34" aria-hidden="true">
+        <ellipse cx="32" cy="40" rx="16" ry="13" fill="currentColor"/>
+        <ellipse cx="14" cy="24" rx="7" ry="8" fill="currentColor"/>
+        <ellipse cx="32" cy="16" rx="7" ry="8.5" fill="currentColor"/>
+        <ellipse cx="50" cy="24" rx="7" ry="8" fill="currentColor"/>
+      </svg>
+      <span>Ani<span class="accent">Pals</span></span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Domů</a>
+      <a href="sluzby.html">Služby</a>
+      <a href="jak-to-funguje.html">Jak to funguje</a>
+      <a href="cenik.html" class="active">Ceník/Storno podmínky</a>
+      <a href="caste-dotazy.html">Časté dotazy</a>
+      <a href="index.html#kontakt" class="nav-cta">Nechte si vědět</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Otevřít menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Ceník / Storno podmínky</span>
+      <h1>Ceník a podmínky zrušení rezervace</h1>
+      <p class="lede">Přehledně, co vás bude služba stát a jak postupovat, pokud budete potřebovat rezervaci zrušit.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Ceník</h2>
+      <p class="placeholder-note">Tato sekce je zatím připravená struktura — konkrétní ceny doplníte vy. Nahraďte text „doplnit cenu“ ve druhém sloupci.</p>
+
+      <div style="overflow-x:auto;">
+        <table class="pricing-table">
+          <thead>
+            <tr>
+              <th>Služba</th>
+              <th>Cena</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Nepřetržitá péče u vás doma</td>
+              <td class="price-cell">doplnit cenu</td>
+            </tr>
+            <tr>
+              <td>Nepřetržitá péče u hlídače</td>
+              <td class="price-cell">doplnit cenu</td>
+            </tr>
+            <tr>
+              <td>Denní péče u vás doma</td>
+              <td class="price-cell">doplnit cenu</td>
+            </tr>
+            <tr>
+              <td>Denní péče u hlídače</td>
+              <td class="price-cell">doplnit cenu</td>
+            </tr>
+            <tr>
+              <td>Jednorázová návštěva (30–60 min)</td>
+              <td class="price-cell">doplnit cenu</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Storno podmínky</h2>
+      <p class="placeholder-note">Také zatím jen struktura — konkrétní znění doplníte vy (např. lhůty pro zrušení, vratky, výjimky).</p>
+
+      <div class="storno-list">
+        <div class="storno-item">
+          <h3>Zrušení ze strany klienta</h3>
+          <p class="todo">Doplnit: do jaké lhůty před termínem lze rezervaci zrušit bez poplatku a co platí po jejím uplynutí.</p>
+        </div>
+        <div class="storno-item">
+          <h3>Zrušení ze strany hlídače</h3>
+          <p class="todo">Doplnit: jak AniPals postupuje, pokud rezervaci zruší hlídač (např. náhradní hlídač, vrácení platby).</p>
+        </div>
+        <div class="storno-item">
+          <h3>Vrácení platby</h3>
+          <p class="todo">Doplnit: způsob a lhůta vrácení peněz při zrušení.</p>
+        </div>
+        <div class="storno-item">
+          <h3>Výjimečné situace</h3>
+          <p class="todo">Doplnit: postup při nenadálých událostech (nemoc, zásah vyšší moci apod.).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="logo footer-logo">
+      <svg class="logo-paw" viewBox="0 0 64 64" width="26" height="26" aria-hidden="true">
+        <ellipse cx="32" cy="40" rx="16" ry="13" fill="currentColor"/>
+        <ellipse cx="14" cy="24" rx="7" ry="8" fill="currentColor"/>
+        <ellipse cx="32" cy="16" rx="7" ry="8.5" fill="currentColor"/>
+        <ellipse cx="50" cy="24" rx="7" ry="8" fill="currentColor"/>
+      </svg>
+      <span>Ani<span class="accent">Pals</span></span>
+    </div>
+    <p>&copy; <span id="year"></span> AniPals. Všechna práva vyhrazena.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
